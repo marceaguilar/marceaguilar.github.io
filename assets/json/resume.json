@@ -1,74 +1,125 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Marcela Aguilar",
+    "label": "Ph.D. Candidate in Business, Accounting",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "kma6@rice.edu",
+    "phone": "+1 (832) 769-6820",
+    "url": "linkedin.com/in/marcela-aguilar",
+    "summary": "Ph.D. candidate at Rice University with extensive experience in research on the informal economy and a strong background in economics. Passionate about applying academic insights to real-world problems.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Houston",
       "countryCode": "US",
-      "region": "California"
+      "region": "TX"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "marcela-aguilar",
+        "url": "https://www.linkedin.com/in/marcela-aguilar"
+      },
+      {
+        "network": "GitHub",
+        "username": "marceaguilar",
+        "url": "https://github.com/marceaguilar"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "International Labour Organization (ILO)",
+      "position": "Regional Project Manager",
+      "url": "",
+      "startDate": "2019-05-01",
+      "endDate": "2021-05-01",
+      "summary": "Coordinated research and policy design on the informal economy across multiple Central American countries. Acted as ILO representative to the UN Country Team in El Salvador.",
       "highlights": [
-        "Relativity"
+        "Led research on informal economy causes in Central America",
+        "Designed surveys and strategies for transitioning to formal economy"
       ]
+    },
+    {
+      "name": "UNICEF",
+      "position": "Research Assistant",
+      "url": "",
+      "startDate": "2018-11-01",
+      "endDate": "2019-05-01",
+      "summary": "Conducted research on the impacts of violence on educational outcomes for school-aged children in Latin American countries.",
+      "highlights": []
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Rice University",
+      "url": "",
+      "area": "Business, Accounting",
+      "studyType": "Ph.D.",
+      "startDate": "2021-08-01",
+      "endDate": "",
       "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "courses": []
+    },
+    {
+      "institution": "University of York",
+      "url": "",
+      "area": "Economics and Public Policy",
+      "studyType": "Master of Science",
+      "startDate": "2017-09-01",
+      "endDate": "2018-09-01",
+      "score": "Graduated with distinction",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Centroamericana José Simeón Cañas",
+      "url": "",
+      "area": "Economics",
+      "studyType": "Bachelor",
+      "startDate": "2011-02-01",
+      "endDate": "2016-11-01",
+      "score": "Graduated with distinction",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Deloitte Foundation Doctoral Fellow",
+      "date": "2024-01-01",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "York Award Gold",
+      "date": "2018-01-01",
+      "awarder": "University of York",
+      "summary": ""
     }
   ],
   "certificates": [],
-  "publications": [],
+  "publications": [
+    {
+      "name": "The Impact of Community Violence on Educational Outcomes: A review of the literature",
+      "publisher": "",
+      "releaseDate": "2021-01-01",
+      "summary": "",
+      "url": ""
+    }
+  ],
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Spanish",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent"
+      "fluency": "Advanced"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Basic"
     }
   ],
   "interests": [],
