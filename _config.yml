@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Marcela
 middle_name: 
 last_name: Aguilar
-email: you@example.com
+email: kma6@rice.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -48,10 +48,9 @@ rss_icon: true
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
-search_enabled: true
+footer_fixed: false
+search_enabled: false
 socials_in_search: true
-bib_search: true
 
 # Dimensions
 max_width: 930px
@@ -194,9 +193,11 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
+    # permalink: /news/:path/
   projects:
     output: true
     permalink: /:collection/:title/
+    # permalink: /projects/:path/
 
 announcements:
   enabled: true
@@ -204,7 +205,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 

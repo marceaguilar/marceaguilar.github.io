@@ -2,96 +2,122 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Marcela Aguilar
+    - name: Email
+      value: kma6@rice.edu
+    - name: Phone
+      value: +1 (832) 769-6820
+    - name: LinkedIn
+      value: linkedin.com/in/marcela-aguilar
+    - name: GitHub
+      value: github.com/marceaguilar
     - name: Languages
-      value: English, German
+      value: Spanish (Native), English (Advanced), Italian (Basic)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Business, Accounting
+      institution: Rice University, Houston, TX
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Advisor: Dr. K. Ramesh
+        - Ph.D. candidate
+    - title: Master of Science in Economics and Public Policy
+      institution: University of York, York, England
+      year: 2017 - 2018
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with distinction
+        - Thesis: "El Salvador: Fiscal impact of aging population and their health demands 2010-2050"
+    - title: Bachelor in Economics
+      institution: Universidad Centroamericana José Simeón Cañas, La Libertad, El Salvador
+      year: 2011 - 2016
+      description:
+        - Graduated with distinction
+        - Thesis: "Education and Demographic Dividend: A Window of Opportunity for the Development of El Salvador"
+    - title: Partial Bachelor in Mathematics
+      institution: National University of El Salvador, San Salvador, El Salvador
+      year: 2013 - 2016
+      description:
+        - Completed 40% of coursework
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Regional Project Manager
+      institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
+      year: 2019 - 2021
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - ILO representative at the UN Country Team (UNCT) in El Salvador
+        - Coordinated research and policy design on informal economy
+    - title: Informal Economy Consultant
+      institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
+      year: 2019
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Researched informal economy causes in Central America
+    - title: Research Assistant
+      institution: UNICEF, Florence, Italy
+      year: 2018 - 2019
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Studied impacts of violence on educational outcomes in Latin America
+    - title: Intern
+      institution: International Labour Organization (ILO), Turin, Italy
+      year: 2018
+      description:
+        - Supported sustainable procurement research and course preparation
+    - title: Child Labour Consultant
+      institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
+      year: 2017
+      description:
+        - Researched new child labour models in El Salvador
+    - title: Analyst of Economic and Social Affairs
+      institution: National Association of Private Enterprise (ANEP), San Salvador, El Salvador
+      year: 2015 - 2017
+      description:
+        - Analyzed policies affecting the private sector
+    - title: Assistant Economic Affairs and Project Coordinator
+      institution: Chamber of Commerce and Industry of El Salvador, San Salvador, El Salvador
+      year: 2015
+      description:
+        - Coordinated projects and maintained key relationships
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2024
+      items: 
+        - Deloitte Foundation Doctoral Fellow
+    - year: 2018
+      items: 
+        - York Award Gold by the University of York
+    - year: 2017
+      items: 
+        - Chevening Program Scholar by the British Government
+        - Mentor for young women in vulnerable situations, ESEN, El Salvador
+    - year: 2011
+      items: 
+        - Central American Women Chess Champion
+    - year: 2010
+      items: 
+        - National Women Chess Champion of El Salvador
+    - year: 2009 - 2013
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+        - Member of the National Women Chess Team of El Salvador
 
-- title: Academic Interests
-  type: nested_list
+- title: Conferences and Workshops
+  type: time_table
   contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: Lone Star Accounting Conference
+      year: 2024
+    - title: Financial Accounting and Reporting Section (FARS)
+      year: 2023, 2024
+    - title: American Accounting Association (AAA)
+      year: 2023
+    - title: Machine Learning Boot Camp, Rice University
+      year: 2023
+    - title: Machine Learning and Causal Inference, Mixtape Sessions
+      year: 2023
+    - title: Accounting Theory Summer School, Duke University
+      year: 2022
+    - title: International Labour Organization Courses
+      year: 2015, 2018
