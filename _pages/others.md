@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /others/
-title: others
-description: Throughout my academic and professional journey, I've been fortunate to receive several recognitions that have supported my growth and development. I’m excited to share some of these milestones here, along with my passion for traveling.
+permalink: /tidbits
+title: tidbits
+description:
 nav: true
 nav_order: 6
 images:
@@ -22,17 +22,42 @@ images:
     <div style="min-width: 200px; max-width: 250px; padding-right: 20px; position: sticky; top: 20px; height: 100%;">
         <h4></h4>
         <ul style="list-style-type: none; padding-left: 0;">
-            <li><a href="#chess">Chess</a></li>
-            <li><a href="#academic-journey">Academic Journey</a></li>
             <li><a href="#conferences">Presentations</a></li>
+            <li><a href="#chess">Chess</a></li>
             <li><a href="#traveling">Traveling</a></li>
         </ul>
     </div>
 
     <!-- Content -->
     <div style="flex-grow: 1;">
+        <h2 id="conferences">Presentations</h2>
+        <p style="text-align: justify;">Here are photos from some of my presentations</p>
+
+        <div class="row mt-4">
+            <div class="col-sm mt-3 mt-md-0 text-center">
+                {% include figure.liquid loading="eager" path="assets/img/itcilo.jpg" title="ITCILO" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
+                <div class="caption mt-2">
+                    <h5>Global Knowledge Sharing Forum</h5>
+                    <p>Italy, 2019</p>
+                </div>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 text-center">
+                {% include figure.liquid loading="eager" path="assets/img/nigeria2" title="Nigeria" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
+                <div class="caption mt-2">
+                    <h5>Global Youth Employment Forum</h5>
+                    <p>Nigeria, 2019</p>
+                </div>
+            </div>
+            <div class="col-sm mt-3 mt-md-0 text-center">
+                {% include figure.liquid loading="eager" path="assets/img/dominicana.jpeg" title="Dominicana" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
+                <div class="caption mt-2">
+                    <h5>Informal Economy Forum</h5>
+                    <p>Dominican Republic, 2024</p>
+                </div>
+            </div>
+        </div>
         <h2 id="chess">Chess</h2>
-        <p style="text-align: justify;">During my years as a competitive chess player, I gained invaluable experience in strategic thinking, critical decision-making, and performing under pressure. Representing El Salvador internationally strengthened my teamwork and competitive skills. Here are some highlights from those experiences.</p>
+        <p style="text-align: justify;">I played chess professionally for about 10 years. Representing El Salvador on the international stage helped me grow as a team player and enhanced my strategic thinking. Here are a few moments from that journey.</p>
 
         <div class="row mt-4">
             <div class="col-sm mt-3 mt-md-0 text-center">
@@ -57,46 +82,6 @@ images:
                 </div>
             </div>
         </div>
-
-        <h2 id="academic-journey">Academic Journey</h2>
-        <p style="text-align: justify;">Regarding my academic journey, I’m honored to have received the <strong>York Award</strong> for exceptional academic performance, the <strong>Deloitte Foundation Doctoral Fellowship</strong> for research potential, and the <strong>Chevening Scholarship</strong> from the British Government to study my master. These recognitions have played a key role in shaping and advancing my academic path.</p>
-
-        <div class="row mt-4 justify-content-center">
-            <div class="col-sm-8 text-center">
-                {% include figure.liquid loading="eager" path="assets/img/york.png" title="Deloitte, York Award, and Chevening Scholarship" class="img-fluid rounded z-depth-1" style="max-width: 400px;" %}
-                <div class="caption mt-2">
-                    <h5>University of York</h5>
-                </div>
-            </div>
-        </div>
-
-        <h2 id="conferences">Presentations</h2>
-        <p style="text-align: justify;">I’ve had the opportunity to present at various significant conferences and forums. In 2024, I served as a discussant at the FARS conference and presented at the Understanding the Informal Economy Forum in Santo Domingo, Dominican Republic. Earlier, in 2019, I shared my insights at the Global Knowledge Sharing Forum on Informal Economy in Turin, Italy, and the Global Youth Employment Forum in Abuja, Nigeria, focusing on the informal economy. These presentations have allowed me to engage with diverse audiences and contribute to important discussions in my field.</p>
-
-        <div class="row mt-4">
-            <div class="col-sm mt-3 mt-md-0 text-center">
-                {% include figure.liquid loading="eager" path="assets/img/itcilo.jpg" title="ITCILO" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
-                <div class="caption mt-2">
-                    <h5>Global Knowledge Sharing Forum</h5>
-                    <p>Italy</p>
-                </div>
-            </div>
-            <div class="col-sm mt-3 mt-md-0 text-center">
-                {% include figure.liquid loading="eager" path="assets/img/nigeria2" title="Nigeria" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
-                <div class="caption mt-2">
-                    <h5>Global Youth Employment Forum</h5>
-                    <p>Nigeria</p>
-                </div>
-            </div>
-            <div class="col-sm mt-3 mt-md-0 text-center">
-                {% include figure.liquid loading="eager" path="assets/img/dominicana.jpeg" title="Dominicana" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
-                <div class="caption mt-2">
-                    <h5>Informal Economy Forum</h5>
-                    <p>Dominican Republic</p>
-                </div>
-            </div>
-        </div>
-
         <h2 id="traveling">Traveling</h2>
         <p style="text-align: justify;">Traveling is one of my greatest passions, I have visited 41 countries, and I can't stop thinking about exploring more and continuing to discover the world. Below, you'll find some of my favorite places.</p>
 
