@@ -1,49 +1,36 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Marcela Aguilar
-    - name: Email
-      value: kma6@rice.edu
-    - name: Phone
-      value: +1 (832) 769-6820
-    - name: LinkedIn
-      value: linkedin.com/in/marcela-aguilar
-    - name: GitHub
-      value: github.com/marceaguilar
-    - name: Languages
-      value: Spanish (Native), English (Advanced), Italian (Basic)
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Business, Accounting
       institution: Rice University, Houston, TX
+      image: rice_logo.png
       year: 2021 - Present
       description:
-        - Advisor: Dr. K. Ramesh
+        - Advisor Dr. K. Ramesh
         - Ph.D. candidate
     - title: Master of Science in Economics and Public Policy
       institution: University of York, York, England
       year: 2017 - 2018
       description:
         - Graduated with distinction
-        - Thesis: "El Salvador: Fiscal impact of aging population and their health demands 2010-2050"
     - title: Bachelor in Economics
       institution: Universidad Centroamericana José Simeón Cañas, La Libertad, El Salvador
       year: 2011 - 2016
       description:
         - Graduated with distinction
-        - Thesis: "Education and Demographic Dividend: A Window of Opportunity for the Development of El Salvador"
-    - title: Partial Bachelor in Mathematics
+    - title: Completed 40% of coursework for Bachelor in Mathematics 
       institution: National University of El Salvador, San Salvador, El Salvador
       year: 2013 - 2016
-      description:
-        - Completed 40% of coursework
 
 - title: Experience
   type: time_table
   contents:
+    - title: Academic Consultant
+      institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
+      year: 2021 - Present
+      description:
+        - Research design for developing surveys and analyzing information. 
     - title: Regional Project Manager
       institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
       year: 2019 - 2021
@@ -59,17 +46,17 @@
       institution: UNICEF, Florence, Italy
       year: 2018 - 2019
       description:
-        - Studied impacts of violence on educational outcomes in Latin America
-    - title: Intern
+        -  Research about the impacts of violence on educational outcomes for school-aged children in Latin American countries
+    - title: Internship in the Sustainable Development Department 
       institution: International Labour Organization (ILO), Turin, Italy
       year: 2018
       description:
-        - Supported sustainable procurement research and course preparation
+        - Prepare and promote course materials on procurement management in the public sector.
     - title: Child Labour Consultant
       institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
       year: 2017
       description:
-        - Researched new child labour models in El Salvador
+        - Research on new child labour models in the context of gangs in El Salvador.
     - title: Analyst of Economic and Social Affairs
       institution: National Association of Private Enterprise (ANEP), San Salvador, El Salvador
       year: 2015 - 2017
@@ -78,46 +65,4 @@
     - title: Assistant Economic Affairs and Project Coordinator
       institution: Chamber of Commerce and Industry of El Salvador, San Salvador, El Salvador
       year: 2015
-      description:
-        - Coordinated projects and maintained key relationships
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2024
-      items: 
-        - Deloitte Foundation Doctoral Fellow
-    - year: 2018
-      items: 
-        - York Award Gold by the University of York
-    - year: 2017
-      items: 
-        - Chevening Program Scholar by the British Government
-        - Mentor for young women in vulnerable situations, ESEN, El Salvador
-    - year: 2011
-      items: 
-        - Central American Women Chess Champion
-    - year: 2010
-      items: 
-        - National Women Chess Champion of El Salvador
-    - year: 2009 - 2013
-      items:
-        - Member of the National Women Chess Team of El Salvador
-
-- title: Conferences and Workshops
-  type: time_table
-  contents:
-    - title: Lone Star Accounting Conference
-      year: 2024
-    - title: Financial Accounting and Reporting Section (FARS)
-      year: 2023, 2024
-    - title: American Accounting Association (AAA)
-      year: 2023
-    - title: Machine Learning Boot Camp, Rice University
-      year: 2023
-    - title: Machine Learning and Causal Inference, Mixtape Sessions
-      year: 2023
-    - title: Accounting Theory Summer School, Duke University
-      year: 2022
-    - title: International Labour Organization Courses
-      year: 2015, 2018
