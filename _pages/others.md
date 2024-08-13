@@ -2,17 +2,17 @@
 layout: page
 permalink: /others/
 title: others
-description: Throughout my academic and professional journey, I've been fortunate to receive several recognitions that have supported my growth and development. I’m happy to share some of them here.
+description: Throughout my academic and professional journey, I've been fortunate to receive several recognitions that have supported my growth and development. I’m excited to share some of these milestones here, along with my passion for traveling.
 nav: true
 nav_order: 6
 images:
   - image_path: /assets/img/travel/honduras.jpeg
-  - image_path: /assets/img/travel/cape.jpeg
+  - image_path: /assets/img/travel/cape.png
   - image_path: /assets/img/travel/cape3.png
   - image_path: /assets/img/travel/egypt.jpeg
   - image_path: /assets/img/travel/japan.png
   - image_path: /assets/img/travel/kenya.jpeg
-  - image_path: /assets/img/travel/kenya2.jpeg
+  - image_path: /assets/img/travel/kenya2.JPEG
   - image_path:  /assets/img/travel/petra.png
   - image_path:  /assets/img/travel/turkey.png
 ---
@@ -38,21 +38,21 @@ images:
             <div class="col-sm mt-3 mt-md-0 text-center">
                 {% include figure.liquid loading="eager" path="assets/img/chess_play.jpeg" title="Central American Women Chess Champion" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
                 <div class="caption mt-2">
-                    <h4>Central American Women Chess Champion</h4>
+                    <h5>Central American Women Chess Champion</h5>
                     <p>2011</p>
                 </div>
             </div>
             <div class="col-sm mt-3 mt-md-0 text-center">
                 {% include figure.liquid loading="eager" path="assets/img/national_chess.jpeg" title="National Women Chess Champion of El Salvador" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
                 <div class="caption mt-2">
-                    <h4>National Women Chess Champion</h4>
+                    <h5>National Women Chess Champion of El Salvador</h5>
                     <p>2010</p>
                 </div>
             </div>
             <div class="col-sm mt-3 mt-md-0 text-center">
                 {% include figure.liquid loading="eager" path="assets/img/chess_team.jpeg" title="Member of the National Women Chess Team" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
                 <div class="caption mt-2">
-                    <h4>Member of the National Women Chess Team</h4>
+                    <h5>Member of the National Women Chess Team of El Salvador</h5>
                     <p>2009 - 2013</p>
                 </div>
             </div>
@@ -65,7 +65,7 @@ images:
             <div class="col-sm-8 text-center">
                 {% include figure.liquid loading="eager" path="assets/img/york.png" title="Deloitte, York Award, and Chevening Scholarship" class="img-fluid rounded z-depth-1" style="max-width: 400px;" %}
                 <div class="caption mt-2">
-                    <h4>University of York</h4>
+                    <h5>University of York</h5>
                 </div>
             </div>
         </div>
@@ -77,21 +77,21 @@ images:
             <div class="col-sm mt-3 mt-md-0 text-center">
                 {% include figure.liquid loading="eager" path="assets/img/itcilo.jpg" title="ITCILO" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
                 <div class="caption mt-2">
-                    <h4>Global Knowledge Sharing Forum</h4>
+                    <h5>Global Knowledge Sharing Forum</h5>
                     <p>Italy</p>
                 </div>
             </div>
             <div class="col-sm mt-3 mt-md-0 text-center">
                 {% include figure.liquid loading="eager" path="assets/img/nigeria2" title="Nigeria" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
                 <div class="caption mt-2">
-                    <h4>Global Youth Employment Forum</h4>
+                    <h5>Global Youth Employment Forum</h5>
                     <p>Nigeria</p>
                 </div>
             </div>
             <div class="col-sm mt-3 mt-md-0 text-center">
                 {% include figure.liquid loading="eager" path="assets/img/dominicana.jpeg" title="Dominicana" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
                 <div class="caption mt-2">
-                    <h4>Informal Economy Forum</h4>
+                    <h5>Informal Economy Forum</h5>
                     <p>Dominican Republic</p>
                 </div>
             </div>
