@@ -16,3 +16,5 @@ cd ~/Projects/marceaguilar.github.io
 ```
 docker-compose up
 ```
+control c para matar
+pwd para 
