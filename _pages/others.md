@@ -17,9 +17,20 @@ images:
   - image_path:  /assets/img/travel/turkey.png
 ---
 
+<style>
+  @media (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+    .content {
+      width: 100%;
+    }
+  }
+</style>
+
 <div style="display: flex;">
     <!-- Sidebar -->
-    <div style="min-width: 200px; max-width: 250px; padding-right: 20px; position: sticky; top: 20px; height: 100%;">
+    <div class="sidebar" style="min-width: 200px; max-width: 250px; padding-right: 20px; position: sticky; top: 20px; height: 100%;">
         <h4></h4>
         <ul style="list-style-type: none; padding-left: 0;">
             <li><a href="#conferences">Presentations</a></li>
@@ -29,7 +40,7 @@ images:
     </div>
 
     <!-- Content -->
-    <div style="flex-grow: 1;">
+    <div class="content" style="flex-grow: 1;">
         <h2 id="conferences">Presentations</h2>
         <p style="text-align: justify;">Here are photos from some of my presentations</p>
 
