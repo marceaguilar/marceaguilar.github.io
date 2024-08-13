@@ -28,6 +28,6 @@ Hello! I’m Marcela Aguilar, a Ph.D. candidate in Business Accounting at [Rice 
 
 I’m passionate about using research to address real-world challenges, especially in developing economies. Over the years, I’ve contributed to policy development, microenterprise growth, and social issues like child labor and education, collaborating with various agencies of the United Nations and national institutions.
 
-Outside of work, I enjoy chess and have had the honor of being a National Female Chess Champion, I also love traveling and learning from new cultures. :airplane: :chess_pawn:
+Outside of work, I enjoy chess and have had the honor of being a National Female Chess Champion of El Salvador, I also love traveling and learning from new cultures.
 
-Thank you for visiting my site! :smile:
+Thank you for visiting my site!

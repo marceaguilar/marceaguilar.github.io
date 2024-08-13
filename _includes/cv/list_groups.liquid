@@ -20,6 +20,10 @@
             <tr>
               <td></td>
               <td class="list-group-name">
+                <!-- Check if image is available and include it -->
+                {% if item.image %}
+                  <img src="{{ item.image }}" alt="Institution Logo" class="institution-logo">
+                {% endif %}
                 <b>{{ item.name }}</b>
               </td>
               {% if item.level %}
