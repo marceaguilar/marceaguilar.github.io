@@ -7,4 +7,5 @@ related_posts: false
 <!-- 
 A simple inline announcement.
 -->
- Great news, I got the Deloitte Foundation Doctoral Fellowship! :sparkles: :smile:
+ Great news, I got the <a href="https://www2.deloitte.com/us/en/pages/about-deloitte/articles/deloitte-foundation-doctoral-fellowship.html">Deloitte Foundation Doctoral Fellowship</a>! :sparkles: :smile:
+
