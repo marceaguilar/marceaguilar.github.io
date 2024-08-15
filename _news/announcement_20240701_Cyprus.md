@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be presenting my first paper on the informal economy at the University of Cyprus in September
+I will be presenting my working paper on the informal economy at the University of Cyprus in September
