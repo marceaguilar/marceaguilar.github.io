@@ -15,6 +15,7 @@ images:
   - image_path: /assets/img/travel/kenya2.JPEG
   - image_path:  /assets/img/travel/petra.png
   - image_path:  /assets/img/travel/turkey.png
+  - image_path:  /assets/img/travel/hawaii.png
 ---
 
 <style>
