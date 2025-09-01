@@ -54,7 +54,7 @@ images:
                 </div>
             </div>
             <div class="col-sm mt-3 mt-md-0 text-center">
-                {% include figure.liquid loading="eager" path="assets/img/nigeria2" title="Nigeria" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
+                {% include figure.liquid loading="eager" path="assets/img/nigeria2.png" title="Nigeria" class="img-fluid rounded z-depth-1" style="max-width: 250px;" %}
                 <div class="caption mt-2">
                     <h5>Global Youth Employment Forum</h5>
                     <p>Nigeria, 2019</p>
