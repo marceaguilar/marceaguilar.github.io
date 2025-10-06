@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Meet Mia: An AI Mentor for Microentrepreneurs"
-description: "How Mia helps small businesses thrive with AI-powered guidance"
+title: "<b>Click</b> here to meet Mia: An AI Mentor for Microentrepreneurs"
+description: "Read how Mia helps small businesses using AI-powered guidance"
 date: 2025-07-30
 categories: 
 tags: [AI Mentor, Business training, "Entrepreneurship",]
