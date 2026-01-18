@@ -95,7 +95,7 @@ images:
             </div>
         </div>
         <h2 id="traveling">Traveling</h2>
-        <p style="text-align: justify;">Traveling is one of my greatest passions, I have visited 41 countries, and I can't stop thinking about exploring more and continuing to discover the world. Below, you'll find some of my favorite places.</p>
+        <p style="text-align: justify;">Traveling is one of my greatest passions, I have visited 44 countries, and I can't stop thinking about exploring more and continuing to discover the world. Below, you'll find some of my favorite places.</p>
 
         <div>
             <img id="main-photo" src="{{ page.images[0].image_path }}" style="width: 85%; height: auto; margin: 0 auto; display: block;" />

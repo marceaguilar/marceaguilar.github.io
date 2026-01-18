@@ -7,5 +7,5 @@ related_posts: false
 <!-- 
 A simple inline announcement.
 -->
- We won the Best Paper Award at the 2025 JAE Conference! 🎉
+ We won the Best Paper Award at the <b> <a href="https://accounting.wharton.upenn.edu/jae-2025/papers/">2025 JAE Conference</a>! 🎉
 
