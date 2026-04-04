@@ -28,6 +28,8 @@ Hello! I’m Marcela Aguilar, a Ph.D. candidate in Business Accounting at [Rice 
 
 I’m passionate about using research to address real-world challenges, especially in developing economies. Over the years, I’ve contributed to policy development, microenterprise growth, and social issues like child labor and education, collaborating with various agencies of the United Nations and national institutions.
 
+I also co-founded and co-organize the [Accounting & Development Forum (ADF)](https://www.acctg.dev/) and the [Accounting & Finance Field Experiments community (AFFE)](https://accfinfe.com/). Together, these initiatives host webinars and in-person conferences that provide a platform for sharing both early-stage and more developed work on accounting and development, with a particular focus on randomized controlled trials (RCTs).
+
 Outside of work, I enjoy chess and have had the honor of being a National Female Chess Champion of El Salvador, I also love traveling and learning from new cultures.
 
 Thank you for visiting my site!
