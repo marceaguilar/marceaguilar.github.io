@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "<b>Click</b> here to meet Mia: An AI Mentor for Microentrepreneurs"
+title: "Meet Mia: An AI Mentor for Microentrepreneurs"
 description: "Read how Mia helps small businesses using AI-powered guidance"
 date: 2025-07-30
 categories: 
