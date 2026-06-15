@@ -13,9 +13,9 @@ images:
   - image_path: /assets/img/travel/japan.png
   - image_path: /assets/img/travel/kenya.jpeg
   - image_path: /assets/img/travel/kenya2.JPEG
-  - image_path:  /assets/img/travel/petra.png
-  - image_path:  /assets/img/travel/turkey.png
-  - image_path:  /assets/img/travel/hawaii.png
+  - image_path: /assets/img/travel/petra.png
+  - image_path: /assets/img/travel/turkey.png
+  - image_path: /assets/img/travel/hawaii.png
 ---
 
 <style>
@@ -116,4 +116,5 @@ images:
             });
         </script>
     </div>
+
 </div>

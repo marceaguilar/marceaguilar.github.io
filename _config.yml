@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Marcela
-middle_name: 
+middle_name:
 last_name: Aguilar
 email: Marcela.Aguilar@chicagobooth.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -167,12 +167,12 @@ giscus:
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # external_sources:
-  # - name: medium.com
-    # rss_url: https://medium.com/@al-folio/feed
-  # - name: Google Blog
-    # posts:
-      # - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        # published_date: 2024-05-14
+# - name: medium.com
+# rss_url: https://medium.com/@al-folio/feed
+# - name: Google Blog
+# posts:
+# - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+# published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -306,9 +306,9 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["Informal Economy", "AI Mentor", "Business training", "Entrepreneurship", "Financial Inclusion"] # these tags will be displayed on the front page of your blog
-display_categories: 
+display_categories:
 #["Field Notes", "AI & Microenterprises", "Experiments", "Training Programs"]
- # these categories will be displayed on the front page of your blog
+# these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

@@ -23,7 +23,7 @@ Below is an example from the field:
   <div class="col-md-6">
     <h5><i class="fa-solid fa-microphone-lines"></i> Entrepreneur's Voice Note</h5>
     <audio controls>
-      <source src="{{ '/assets/audio/mia/empresario1.mp3' | relative_url }}" type="audio/mpeg">
+      <source src="/assets/audio/mia/empresario1.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
     <p class="caption mt-2">An entrepreneur asks Mia for help understanding how to price her handmade goods.</p>
@@ -31,7 +31,7 @@ Below is an example from the field:
   <div class="col-md-6">
     <h5><i class="fa-solid fa-robot"></i> Mia's Audio Reply</h5>
     <audio controls>
-      <source src="{{ '/assets/audio/mia/mia_responde1.mp3' | relative_url }}" type="audio/mpeg">
+      <source src="/assets/audio/mia/mia_responde1.mp3" type="audio/mpeg">
     </audio>
     <p class="caption mt-2">Mia responds with tailored guidance on pricing strategies based on costs and competition.</p>
   </div>
