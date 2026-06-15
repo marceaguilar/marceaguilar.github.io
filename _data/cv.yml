@@ -1,68 +1,184 @@
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D. in Business, Accounting
-      institution: Rice University, Houston, TX
-      image: rice_logo.png
-      year: 2021 - Present
-      description:
-        - Advisor Dr. K. Ramesh
-        - Ph.D. candidate
-    - title: Master of Science in Economics and Public Policy
-      institution: University of York, York, England
-      year: 2017 - 2018
-      description:
-        - Graduated with distinction
-    - title: Bachelor in Economics
-      institution: Universidad Centroamericana José Simeón Cañas, La Libertad, El Salvador
-      year: 2011 - 2016
-      description:
-        - Graduated with distinction
-    - title: Completed 40% of coursework for Bachelor in Mathematics 
-      institution: National University of El Salvador, San Salvador, El Salvador
-      year: 2013 - 2016
+- title: Academic Profile
+  type: accordion
+  pinned:
+    - title: Academic Appointments
+      type: time_table
+      contents:
+        - title: Assistant Professor of Accounting
+          institution: <a href="https://www.chicagobooth.edu/" target="_blank" rel="noopener noreferrer">University of Chicago, Booth School of Business</a>
+          department: Chicago, IL
+          year: Jul 2026 – Present
+  sections:
+    - title: Education
+      type: time_table
+      contents:
+        - title: Ph.D. in Business, Accounting
+          institution: <a href="https://business.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a>
+          department: Houston, TX
+          year: Aug 2021 – May 2026
+          description:
+            - "Committee: K. Ramesh, Shiva Sivaramakrishnan, Yael Hochberg, Xun Tang"
+            - "<em>Advisor: Dr. K. Ramesh</em>"
+        - title: Master of Arts in Business Administration
+          institution: <a href="https://business.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a>
+          department: Houston, TX
+          year: Aug 2021 – Dec 2025
+        - title: Master of Science in Economics and Public Policy
+          institution: <a href="https://www.york.ac.uk/" target="_blank" rel="noopener noreferrer">University of York</a>
+          department: York, England
+          year: Sep 2017 – Sep 2018
+          description:
+            - Graduated with distinction
+        - title: Bachelor in Economics
+          institution: Universidad Centroamericana José Simeón Cañas
+          department: La Libertad, El Salvador
+          year: Feb 2011 – Nov 2016
+          description:
+            - Graduated with distinction
+        - title: Bachelor in Mathematics
+          institution: National University of El Salvador
+          department: San Salvador, El Salvador
+          year: Feb 2013 – Nov 2016
+          description:
+            - Completed 40% of coursework
+    - title: Teaching Experience
+      type: time_table
+      contents:
+        - title: Financial Accounting – BUSN 30000
+          institution: <a href="https://www.chicagobooth.edu/" target="_blank" rel="noopener noreferrer">University of Chicago, Booth School of Business</a>
+          year: Spring 2027
+        - title: 'Teaching Assistant – <a href="https://courses.rice.edu/courses/courses/!SWKSCAT.cat?p_action=COURSE&amp;p_term=202520&amp;p_crn=20335" target="_blank" rel="noopener noreferrer">BUSI 533</a> and <a href="https://courses.rice.edu/courses/!SWKSCAT.cat?p_action=COURSE&amp;p_term=201720&amp;p_crn=22370" target="_blank" rel="noopener noreferrer">MGMT 641</a>'
+          institution: <a href="https://business.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a>
+          year: Spring 2025
+        - title: 'Instructor of Financial Accounting – <a href="https://courses.rice.edu/courses/!SWKSCAT.cat?p_action=COURSE&amp;p_term=202430&amp;p_crn=31493" target="_blank" rel="noopener noreferrer">BUSI 305</a>'
+          institution: <a href="https://business.rice.edu/" target="_blank" rel="noopener noreferrer">Rice University</a>
+          year: Summer 2024
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Academic Consultant
-      institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
-      year: 2021 - Present
-      description:
-        - Research design for developing surveys and analyzing information. 
-    - title: Regional Project Manager
-      institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
-      year: 2019 - 2021
-      description:
-        - ILO representative at the UN Country Team (UNCT) in El Salvador
-        - Coordinated research and policy design on informal economy
-    - title: Informal Economy Consultant
-      institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
-      year: 2019
-      description:
-        - Researched informal economy causes in Central America
-    - title: Research Assistant
-      institution: UNICEF, Florence, Italy
-      year: 2018 - 2019
-      description:
-        -  Research about the impacts of violence on educational outcomes for school-aged children in Latin American countries
-    - title: Internship in the Sustainable Development Department 
-      institution: International Labour Organization (ILO), Turin, Italy
-      year: 2018
-      description:
-        - Prepare and promote course materials on procurement management in the public sector.
-    - title: Child Labour Consultant
-      institution: International Labour Organization (ILO), San José, Costa Rica (Remotely)
-      year: 2017
-      description:
-        - Research on new child labour models in the context of gangs in El Salvador.
-    - title: Analyst of Economic and Social Affairs
-      institution: National Association of Private Enterprise (ANEP), San Salvador, El Salvador
-      year: 2015 - 2017
-      description:
-        - Analyzed policies affecting the private sector
-    - title: Assistant Economic Affairs and Project Coordinator
-      institution: Chamber of Commerce and Industry of El Salvador, San Salvador, El Salvador
-      year: 2015
+- title: Research
+  type: accordion
+  sections:
+    - title: Working Papers
+      type: list
+      contents:
+        - text: 'AI Mentorship and the Language of Business: Building Financial Capability among Microenterprises in Developing Economies. Evidence from an RCT (Job Market Paper, accepted for the <a href="https://www.chicagobooth.edu/research/chookaszian/events/jar-conference" target="_blank" rel="noopener noreferrer">2026 JAR Conference</a>).'
+        - text: 'Aguilar, M., Lind, G. and Ramesh, K. (2025). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5199563" target="_blank" rel="noopener noreferrer">The Role of Accounting in the Informal Economy</a> (Best Paper Award at the <a href="https://accounting.wharton.upenn.edu/jae-2025/conference-schedule/" target="_blank" rel="noopener noreferrer">2025 JAE Conference</a>).'
+    - title: Prior Non-Academic Research
+      type: list
+      contents:
+        - text: 'Chavez, C., &amp; Aguilar, M. (2021) <a href="https://www.unicef-irc.org/publications/pdf/The-Impact-of-Community-Violence-on-Educational-Outcomes.pdf" target="_blank" rel="noopener noreferrer">The Impact of Community Violence on Educational Outcomes</a>'
+        - text: 'ILO (2020) <a href="https://www.ilo.org/wcmsp5/groups/public/---americas/---ro-lima/---sro-san_jose/documents/publication/wcms_816955.pdf" target="_blank" rel="noopener noreferrer">Analysis of the Salvadoran Youth Labor Market Resulting from the COVID-19</a> (research coordinator)'
+        - text: 'ILO (2020) <a href="https://www.ilo.org/wcmsp5/groups/public/---americas/---ro-lima/---sro-san_jose/documents/publication/wcms_752181.pdf" target="_blank" rel="noopener noreferrer">Survey of Micro-Businesses in the Informal Economy in Central America</a> (primary researcher)'
+        - text: 'ILO (2020) <a href="https://www.ilo.org/sites/default/files/wcmsp5/groups/public/@americas/@ro-lima/@sro-san_jose/documents/publication/wcms_752182.pdf" target="_blank" rel="noopener noreferrer">Diagnostic of the Informal Economy</a> (primary researcher)'
+        - text: 'ILO (2018) <a href="https://iniciativa2025alc.org/sites/default/files/trabajo-infantil-y-pandillas-El-Salvador.pdf" target="_blank" rel="noopener noreferrer">New forms of child labor</a> (primary researcher)'
 
+- title: Professional Experience
+  type: accordion
+  panel_title: Professional Experience
+  sections:
+    - type: time_table
+      contents:
+        - title: Regional Project Manager for the Informal Economy
+          institution: <a href="https://www.ilo.org/" target="_blank" rel="noopener noreferrer">International Labour Organization (ILO)</a>
+          department: Costa Rica, San José (remotely)
+          year: May 2019 – May 2021
+        - title: Research Assistant
+          institution: <a href="https://www.unicef.org/irc/" target="_blank" rel="noopener noreferrer">UNICEF</a>
+          department: Florence, Italy
+          year: Nov 2018 – May 2019
+        - title: Internship in the Sustainable Development Department
+          institution: International Training Center of the ILO
+          department: Turin, Italy
+          year: Sep 2018 – Nov 2018
+        - title: Consultant
+          institution: <a href="https://www.ilo.org/" target="_blank" rel="noopener noreferrer">International Labour Organization (ILO)</a>
+          department: Costa Rica, San José (remotely)
+          year: Aug 2017 – Apr 2019
+        - title: Economic and Social Affairs Analyst
+          institution: National Association of Private Enterprise (ANEP) and Chamber of Commerce and Industry
+          department: El Salvador
+          year: Feb 2015 – Jul 2017
+
+- title: Presentations
+  type: accordion
+  sections:
+    - title: Invited Workshop Presentations
+      type: list
+      contents:
+        - text: London School of Economics (Scheduled for 2027)
+        - text: Humboldt-Universität zu Berlin (Scheduled for 2026)
+        - text: Harvard University (2026)
+        - text: Massachusetts Institute of Technology (2026)
+        - text: Stanford University (2026)
+        - text: University of Chicago (2026)
+        - text: University of Miami (2026)
+        - text: Indiana University (2026)
+        - text: London Business School (2025)
+        - text: INSEAD Business School (2025)
+        - text: National University of Singapore (2025)
+        - text: University of Cyprus (2024)
+    - title: Conference Presentations & Discussions
+      type: list
+      contents:
+        - text: Discussant at the Conference on Field Experiments in Accounting and Economics, Tokyo, Japan (2026)
+        - text: Presentation at the Conference on Accounting & Information Frictions in Microenterprises, Rice University (2025)
+        - text: Presentation at FARS and HARC conferences (2025)
+        - text: Discussant at FARS (2024)
+        - text: Understanding the Informal Economy Forum, Santo Domingo, Dominican Republic (2024)
+        - text: Global Knowledge Sharing Forum on Informal Economy, Turin, Italy (2019)
+        - text: Global Youth Employment Forum (informal economy), Abuja, Nigeria (2019)
+    - title: Conferences & Workshops Attended
+      type: list
+      contents:
+        - text: '<a href="https://economics.uchicago.edu/advances-with-field-experiments-conference" target="_blank" rel="noopener noreferrer">Advances with Field Experiments Conference</a> (2025)'
+        - text: '<a href="https://www.ssrn.com/index.cfm/en/janda/announcement/?id=17217" target="_blank" rel="noopener noreferrer">Conference on Accounting & Information Frictions in Microenterprises</a> (Sep 2025, co-organizer)'
+        - text: AAA/Deloitte Foundation/J. Michael Cook Doctoral Consortium (2025)
+        - text: Experimental and Behavioral Economics Summer School, by the European Economic Review (2024)
+        - text: Survey Design & Experimental Methods Workshop, Michigan State University (2024)
+        - text: Lone Star Accounting Conference (2024, 2025)
+        - text: Financial Accounting and Reporting Section, FARS (2023–2025)
+        - text: American Accounting Association, AAA (2023)
+        - text: Machine Learning Boot Camp, Rice University (2023)
+        - text: Machine Learning and Causal Inference, Mixtape Sessions (2023, online)
+        - text: Accounting Theory Summer School, Duke University (2022)
+        - text: Academy on the transition to formal economy, International Labour Organization, Turin, Italy (2018)
+        - text: Course in Quantitative Methods, STATA and Matlab, Alberto Hurtado University, Chile (2017)
+        - text: Diploma in National Employment Policy, International Labour Organization, Turin, Italy (2015)
+
+- title: Honors & Funding
+  type: accordion
+  sections:
+    - title: Grants & Partnerships
+      type: list
+      contents:
+        - text: 'Co-founder of the <a href="https://sites.google.com/view/acctg-dev/members?authuser=0" target="_blank" rel="noopener noreferrer">Accounting & Development Forum</a>'
+          year: "2026"
+        - text: Best Paper Award at the 2025 JAE Conference
+          year: "2025"
+        - text: 'Co-founder of the <a href="https://accfinfe.com/" target="_blank" rel="noopener noreferrer">Accounting & Finance Field Experiments Group</a>'
+          year: "2025"
+        - text: Expanding Horizons Travel Grant by Rice University for research on local communities
+          year: "2025"
+        - text: Memorandum of Understanding for Academic Research Collaboration with the ILO
+          year: "2025"
+        - text: '<a href="https://www2.deloitte.com/us/en/pages/about-deloitte/articles/deloitte-foundation-doctoral-fellowship.html" target="_blank" rel="noopener noreferrer">Deloitte Foundation Doctoral Fellowship</a>'
+          year: "2024"
+        - text: Creative Ventures Grant for a conference (co-organized with K. Ramesh)
+          year: "2024"
+        - text: Academic Consultant for ILO (Dominican Republic, Central America and Mexico)
+          year: 2021–Present
+    - title: Awards & Honors
+      type: list
+      contents:
+        - text: '<a href="https://aaahq.org/FARS/Awards/Outstanding-Discussion" target="_blank" rel="noopener noreferrer">AAA Midyear Meeting Outstanding Discussant Award</a>'
+          year: "2024"
+        - text: York Award Gold by the University of York for Academic Excellence
+          year: "2018"
+        - text: Chevening Program Scholar by the British Government
+          year: "2017"
+        - text: Central American Women Chess Champion
+          year: "2011"
+        - text: '<a href="https://en.wikipedia.org/wiki/Salvadoran_Chess_Championship" target="_blank" rel="noopener noreferrer">National Women Chess Champion of El Salvador</a>'
+          year: "2010"
+        - text: Member of the National Women Chess Team of El Salvador
+          year: 2009–2013

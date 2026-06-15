@@ -1,0 +1,110 @@
+{% assign accordion_id = entry.title | slugify %}
+{% if entry.pinned %}
+  {% for pinned in entry.pinned %}
+    <a class="anchor" id="{{ pinned.title }}"></a>
+    <div class="cv-pinned-section">
+      {% if pinned.title %}
+        <h4 class="cv-pinned-title">{{ pinned.title }}</h4>
+      {% endif %}
+      <div class="cv-pinned-body">
+        {% assign cv_contents = pinned.contents %}
+        {% case pinned.type %}
+          {% when 'list' %}
+            {% include cv/list_rows.liquid %}
+          {% when 'time_table' %}
+            {% include cv/time_table_rows.liquid %}
+        {% endcase %}
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}
+<div class="cv-accordion accordion" id="accordion-{{ accordion_id }}">
+  {% if entry.panel_title and entry.sections.size == 1 %}
+    {% assign section = entry.sections.first %}
+    {% assign section_id = accordion_id | append: '-panel' %}
+    <div class="card cv-accordion-item cv-accordion-item-single">
+      <div class="card-header cv-accordion-header" id="heading-{{ section_id }}">
+        <h4 class="mb-0">
+          <button
+            class="btn btn-link cv-accordion-toggle collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapse-{{ section_id }}"
+            aria-expanded="false"
+            aria-controls="collapse-{{ section_id }}"
+            data-toc-skip
+          >
+            <i class="fa-solid fa-chevron-down cv-accordion-icon" aria-hidden="true"></i>
+            <span class="cv-accordion-label">{{ entry.panel_title }}</span>
+            {% if section.contents.size %}
+              <span class="cv-accordion-count">{{ section.contents.size }}</span>
+            {% endif %}
+          </button>
+        </h4>
+      </div>
+      <div
+        id="collapse-{{ section_id }}"
+        class="collapse"
+        aria-labelledby="heading-{{ section_id }}"
+        data-parent="#accordion-{{ accordion_id }}"
+      >
+        <div class="card-body cv-accordion-body">
+          {% assign cv_contents = section.contents %}
+          {% case section.type %}
+            {% when 'list' %}
+              {% include cv/list_rows.liquid %}
+            {% when 'time_table' %}
+              {% include cv/time_table_rows.liquid %}
+          {% endcase %}
+        </div>
+      </div>
+    </div>
+  {% else %}
+    {% for section in entry.sections %}
+      {% assign section_id = accordion_id | append: '-' | append: section.title | slugify %}
+      <div class="card cv-accordion-item">
+        <div class="card-header cv-accordion-header" id="heading-{{ section_id }}">
+          <h4 class="mb-0">
+            <button
+              class="btn btn-link cv-accordion-toggle {% unless section.open %}collapsed{% endunless %}"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapse-{{ section_id }}"
+              aria-expanded="{% if section.open %}true{% else %}false{% endif %}"
+              aria-controls="collapse-{{ section_id }}"
+              data-toc-skip
+            >
+              <i class="fa-solid fa-chevron-down cv-accordion-icon" aria-hidden="true"></i>
+              <span class="cv-accordion-label">{{ section.title }}</span>
+              {% if section.contents.size %}
+                <span class="cv-accordion-count">{{ section.contents.size }}</span>
+              {% endif %}
+            </button>
+          </h4>
+        </div>
+        <div
+          id="collapse-{{ section_id }}"
+          class="collapse {% if section.open %}show{% endif %}"
+          aria-labelledby="heading-{{ section_id }}"
+          data-parent="#accordion-{{ accordion_id }}"
+        >
+          <div class="card-body cv-accordion-body">
+            {% assign cv_contents = section.contents %}
+            {% case section.type %}
+              {% when 'list' %}
+                {% include cv/list_rows.liquid %}
+              {% when 'time_table' %}
+                {% include cv/time_table_rows.liquid %}
+              {% when 'nested_list' %}
+                {% include cv/nested_list.liquid %}
+              {% when 'map' %}
+                {% include cv/map.liquid %}
+              {% when 'list_groups' %}
+                {% include cv/list_groups.liquid %}
+            {% endcase %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>

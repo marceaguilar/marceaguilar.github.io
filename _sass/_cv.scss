@@ -2,6 +2,268 @@
  * CV shared styles
  *****************************/
 
+.cv-page-title {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  width: 100%;
+
+  a.cv-pdf-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    text-transform: none;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+}
+
+.cv-section-title {
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  color: var(--global-theme-color);
+}
+
+.cv-pinned-section {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--global-divider-color);
+
+  a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+
+    &:hover {
+      border-bottom-color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.cv-pinned-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--global-text-color-light);
+  margin-bottom: 0.65rem;
+}
+
+.cv-pinned-body {
+  padding: 0 0.15rem;
+}
+
+.cv-accordion {
+  .cv-accordion-item {
+    background-color: transparent;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .cv-accordion-header {
+    padding: 0;
+    background-color: var(--global-card-bg-color);
+    border-bottom: none;
+  }
+
+  .cv-accordion-toggle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    text-decoration: none;
+    color: var(--global-text-color);
+    font-weight: 600;
+    font-size: 0.95rem;
+    white-space: normal;
+
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      color: var(--global-theme-color);
+    }
+
+    &:not(.collapsed) .cv-accordion-icon {
+      transform: rotate(180deg);
+    }
+  }
+
+  .cv-accordion-icon {
+    flex-shrink: 0;
+    margin-right: 0.6rem;
+    font-size: 0.75rem;
+    color: var(--global-theme-color);
+    transition: transform 0.2s ease;
+  }
+
+  .cv-accordion-label {
+    flex: 1;
+  }
+
+  .cv-accordion-count {
+    flex-shrink: 0;
+    margin-left: 0.75rem;
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--global-text-color-light);
+    background-color: var(--global-divider-color);
+  }
+
+  .cv-accordion-body {
+    padding: 0.75rem 1rem 1rem;
+    background-color: var(--global-card-bg-color);
+
+    a {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s ease;
+
+      &:hover {
+        border-bottom-color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.cv-entry-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .cv-entry-list-item {
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+
+  .cv-entry-list-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .cv-entry-list-text {
+    flex: 1;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--global-text-color);
+  }
+
+  .cv-entry-list-year {
+    flex-shrink: 0;
+    min-width: 4.5rem;
+    text-align: right;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+}
+
+.cv-time-table {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .cv-time-entry {
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+
+  .cv-time-entry-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.5rem 1rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .cv-time-entry-year {
+    flex-shrink: 0;
+    padding: 0.15rem 0.55rem;
+    border-radius: 0.2rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--global-card-bg-color);
+    background-color: var(--global-theme-color);
+    white-space: nowrap;
+  }
+
+  .cv-time-entry-title {
+    flex: 1;
+    margin: 0;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--global-text-color);
+  }
+
+  .cv-time-entry-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem 0.75rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
+
+  .cv-time-entry-institution {
+    i {
+      margin-right: 0.35rem;
+      color: var(--global-theme-color);
+      font-size: 0.8rem;
+    }
+  }
+
+  .cv-time-entry-details {
+    margin: 0.35rem 0 0;
+    padding-left: 1.1rem;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--global-text-color-light);
+
+    li + li {
+      margin-top: 0.2rem;
+    }
+  }
+}
+
 div.container-link-button {
   margin-right: 0.5rem;
 }

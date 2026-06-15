@@ -4,16 +4,17 @@ layout: default
 {% unless site.data.resume %}
   <div class="post">
     <header class="post-header">
-      <h1 class="post-title">
+      <h1 class="post-title cv-page-title">
         {{ page.title }}
         {% if page.cv_pdf %}
           <a
             href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
             target="_blank"
             rel="noopener noreferrer"
-            class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+            class="cv-pdf-link btncv z-depth-0"
+            title="Download full CV as PDF"
+            ><i class="fa-solid fa-file-pdf"></i> Download PDF</a
+          >
         {% endif %}
       </h1>
       {% if page.description %}
@@ -26,21 +27,9 @@ layout: default
         {% for entry in site.data.cv %}
           <a class="anchor" id="{{ entry.title }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+            <h2 class="card-title font-weight-medium cv-section-title">{{ entry.title }}</h2>
             <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
-              {% endif %}
+              {% include cv/entry_content.liquid %}
             </div>
           </div>
         {% endfor %}
@@ -50,16 +39,17 @@ layout: default
 {% else %}
   <div class="post">
     <header class="post-header">
-      <h1 class="post-title">
+      <h1 class="post-title cv-page-title">
         {{ page.title }}
         {% if page.cv_pdf %}
           <a
             href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
             target="_blank"
             rel="noopener noreferrer"
-            class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+            class="cv-pdf-link btncv z-depth-0"
+            title="Download full CV as PDF"
+            ><i class="fa-solid fa-file-pdf"></i> Download PDF</a
+          >
         {% endif %}
       </h1>
       {% if page.description %}
