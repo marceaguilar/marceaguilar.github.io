@@ -57,11 +57,14 @@
 - title: Research
   type: accordion
   sections:
+    - title: Publications
+      type: list
+      contents:
+        - text: 'Aguilar, M., Lind, G. and Ramesh, K. (2026). <a href="https://doi.org/10.1016/j.jacceco.2026.101934" target="_blank" rel="noopener noreferrer">The Role of Accounting in the Informal Economy</a>. <em>Journal of Accounting and Economics</em> (Best Paper Award at the <a href="https://accounting.wharton.upenn.edu/jae-2025/conference-schedule/" target="_blank" rel="noopener noreferrer">2025 JAE Conference</a>).'
     - title: Working Papers
       type: list
       contents:
         - text: 'AI Mentorship and the Language of Business: Building Financial Capability among Microenterprises in Developing Economies. Evidence from an RCT (Job Market Paper, accepted for the <a href="https://www.chicagobooth.edu/research/chookaszian/events/jar-conference" target="_blank" rel="noopener noreferrer">2026 JAR Conference</a>).'
-        - text: 'Aguilar, M., Lind, G. and Ramesh, K. (2025). <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5199563" target="_blank" rel="noopener noreferrer">The Role of Accounting in the Informal Economy</a> (Best Paper Award at the <a href="https://accounting.wharton.upenn.edu/jae-2025/conference-schedule/" target="_blank" rel="noopener noreferrer">2025 JAE Conference</a>).'
     - title: Prior Non-Academic Research
       type: list
       contents:

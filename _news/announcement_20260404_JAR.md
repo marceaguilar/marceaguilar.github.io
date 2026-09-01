@@ -9,4 +9,4 @@ related_posts: false
 A simple inline announcement.
 -->
 
-I’ll be presenting my JMP at <a href="https://www.chicagobooth.edu/research/chookaszian/events/jar-conference">the 2026 JAR Conference</a>! 🎉
+I presented my JMP at <a href="https://www.chicagobooth.edu/research/chookaszian/events/jar-conference">the 2026 JAR Conference</a>! 🎉
